@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    srand(time(0));
+    srand(static_cast<unsigned int>(time(nullptr)));
 
     QApplication a(argc, argv);
     Widget w;
